@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Foundations | Links and Images</title>
+</head>
+
+<body>
+    <h1>Homepage</h1>
+    <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+    <a href="./pages/about.html">About</a>
+    <img src="./images/dog.jpg" alt="A black pug dog named Charles on a rich yellow background." height="853"
+        width="640">
+
+    <br>
+
+    <h2>Anchor Elemets and opening links in same tab</h2>
+    <a href="https://www.theodinproject.com/about">About The Odin Project (same tab)</a>
+    <p> </p>
+
+    <h2>Opening links in new tab</h2>
+    <!-- to make the link open in a new tab -->
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer">About The Odin Project (new tab)</a>
+
+    <!-- href specifies the destination, target specifies where the link opens
+     _self is the current tab, _blank is the a tab or window (browser dependent -->
+
+    <!-- rel helps with security , noreferrer and noopener-->
+
+    <h2>Absolute and Relative Links</h2>
+    <p> Links to pages on other websites are absolute links. Comprised of the protocol, domain, and path, eg
+        scheme://domain/path, or https://www.theodinproject.com/about </p>
+    <p> Links to pages within the same website are relative links. </p>
+
+    <h2>Images</h2>
+    <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="310" width="310">
+
+    <!-- To use images from own computer, download, move download to the images directory, rename to something usable. eg CLI code
+     mv ~/Downloads/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg ~/repos/Odin/html-foundations/links-and-images/images/dog.jpg
+    -->
+
+    <p> It is important to provide credit when using images from other sources.An easy way to provide credit is to
+        include the creator’s name and contact info in a README file in your repository, or give attribution.</p>
+
+    <p>To find them - Google images and in image results -> Tools -> Usage rights -> “Creative Commons”. Choose & click
+        on a image and click license details.</p>
+
+</body>
+
+</html>
